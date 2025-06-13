@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // ✅ Inject global stylesheet
     const style = document.createElement("link");
     style.rel = "stylesheet";
-    style.href = "/style.css"; // Absolute path to always load correctly
+    style.href = "style.css"; // Absolute path to always load correctly
     document.head.appendChild(style);
 
     // Preconnect to Google Fonts
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const preconnect2 = document.createElement("link");
     preconnect2.rel = "preconnect";
     preconnect2.href = "https://fonts.gstatic.com";
-    preconnect2.crossOrigin = "anonymous"; // or "use-credentials" if needed
+    preconnect2.crossOrigin = ""; // or "use-credentials" if needed
     document.head.appendChild(preconnect2);
 
     // Load Sirin Stencil font
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const homeButton = document.createElement("button");
     homeButton.textContent = "Home";
     homeButton.onclick = () => {
-        window.location.href = "/index.html";
+    window.location.href = "index.html";
     };
 
     // ✅ Optionally wrap in a container
