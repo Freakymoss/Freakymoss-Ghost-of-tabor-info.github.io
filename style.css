@@ -1,0 +1,49 @@
+a {
+    color: tan;
+    text-decoration: none;
+}
+body {
+    background-color: rgb(33, 32, 32);
+    color: gray;
+    font-family: 'Sirin Stencil', sans-serif;
+}
+
+
+
+#home-button-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+}
+
+#home-button-container button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#home-button-container button:hover {
+    background-color: #555;
+}
+
+#Details {
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Sirin Stencil', sans-serif;
+}
+
+
+.sirin-stencil-regular {
+  font-family: "Sirin Stencil", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#gun {
+    max-width: 10%;
+    height: auto;
+}
