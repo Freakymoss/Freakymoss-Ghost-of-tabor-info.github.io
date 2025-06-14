@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // ✅ Inject global stylesheet
     const style = document.createElement("link");
     style.rel = "stylesheet";
-    style.href = "style.css"; // Absolute path to always load correctly
+    style.href = "/style.css"; // absolute path for GitHub Pages; 
     document.head.appendChild(style);
-
+    
     // Preconnect to Google Fonts
     const preconnect1 = document.createElement("link");
     preconnect1.rel = "preconnect";
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const homeButton = document.createElement("button");
     homeButton.textContent = "Home";
     homeButton.onclick = () => {
-    window.location.href = "index.html";
+    window.location.href = "/index.html";
     };
 
     // ✅ Optionally wrap in a container
