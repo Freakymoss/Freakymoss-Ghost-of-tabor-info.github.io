@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // ✅ Inject global stylesheet
     const style = document.createElement("link");
     style.rel = "stylesheet";
-    style.href = "/style.css"; // absolute path for GitHub Pages; 
+    style.href = "https://freakymoss.github.io/Freakymoss-Ghost-of-tabor-info.github.io/style.css"; // absolute path for GitHub Pages; 
     document.head.appendChild(style);
     
     // Preconnect to Google Fonts
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const homeButton = document.createElement("button");
     homeButton.textContent = "Home";
     homeButton.onclick = () => {
-    window.location.href = "/index.html";
+    window.location.href = "https://freakymoss.github.io/Freakymoss-Ghost-of-tabor-info.github.io/index.html";
     };
 
     // ✅ Optionally wrap in a container
